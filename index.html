@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec des boutons</title>
+    <script src="https://kit.fontawesome.com/58f591c068.js" crossorigin="anonymous"></script>
+  
+  <style>
+    
+    body {
+      background-color: white;
+      margin: auto;
+      text-align: center;
+      font-family: helvetica;
+    }  
+    
+    .header {
+      font-size: 72px;
+      color: #022e37;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }  
+    
+    .button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    } 
+    
+    .buttonstyle {
+      width: 400px;
+      height: 60px;
+      font-size: 32px;
+      text-transform: uppercase;
+      font-weight: normal;
+      background-color: #30c1db;
+      border: 0px;
+      border-radius: 15px;
+      color: white;
+      margin-bottom: 20px;
+      cursor: pointer;
+    } 
+    
+  </style>
+</head>
+<body>
+  
+  <div class="header">
+    Punch <i class="fa-regular fa-clock"></i>
+  </div>
+  
+  
+  <div class="button">
+    <button class="buttonstyle" onclick="window.location.href='https://www.entretienetudiant.com/punch-entree'"><i class="fa-solid fa-play"></i> Début de journée</button>
+  </div>
+  
+  <div>
+    <button class="buttonstyle" onclick="window.location.href='https://www.entretienetudiant.com/punch-sortie'"><i class="fa-solid fa-stop"></i> Fin de journée</button>
+  </div> 
+     
+    
+</body>
+</html>
